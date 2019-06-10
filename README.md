@@ -26,33 +26,33 @@ Here are some questions to consider:
 ## Deliverables
 
 **`Manager`**
-  * `Manager#name`
+  * `Manager#name` V
     * returns a `String` that is the manager's name
-  * `Manager#department`
+  * `Manager#department` V
     * returns a `String` that is the department that the manager oversees
-  * `Manager#age`
+  * `Manager#age`V
     * returns a `Fixnum` that is the age of the manager
-  * `Manager#employees`
+  * `Manager#employees`V
     * returns an `Array` of all the employees that the manager oversees
-  * `Manager.all`
+  * `Manager.all`V
     * returns an `Array` of all the managers
-  * `Manager#hire_employee`
+  * `Manager#hire_employee`V
     * takes a `String` argument and a `Fixnum` argument of an employee's name and the employee's salary, respectively, and adds that employee to the list of employees that the manager oversees
-  * `Manager.all_departments`
+  * `Manager.all_departments` V
     * returns an `Array` of all the department names that every manager oversees
-  * `Manager.average_age`
+  * `Manager.average_age`V
     * returns a `Float` that is the average age of all the managers
 
 **`Employee`**
-  * `Employee#name`
+  * `Employee#name` V
     * returns a `String` that is the employee's name
-  * `Employee#salary`
+  * `Employee#salary`V
     * returns a `Fixnum` that is the employee's salary
-  * `Employee#manager_name`
+  * `Employee#manager_name`V
     * returns a `String` that is the name of their manager
-  * `Employee.all`
+  * `Employee.all`V
     * returns an `Array` of all the employees
-  * `Employee.paid_over`
+  * `Employee.paid_over` V
     * takes a `Fixnum` argument and returns an `Array` of all the employees whose salaries are over that amount
   * `Employee.find_by_department`
     * takes a `String` argument that is the name of a department and returns the first employee whose manager is working in that department
